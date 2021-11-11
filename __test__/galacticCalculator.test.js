@@ -17,9 +17,9 @@ describe('GalacticCalculator', () => {
   test('Should return age in Jupiter years when ageCalculator("Jupiter") is called', () => {
     expect( cal.ageCalculator("Jupiter")).toEqual(2.3608768971332212);
   });
-  // test('Should return age in Venus years when ageCalculator("Venus") is called', () => {
-  //   expect( cal.ageCalculator("Venus")).toEqual(45.16129032258065);
-  // });
+  test('Should return false when unknown planet is passed as argumument when ageCalculator() is called', () => {
+    expect( cal.ageCalculator("Saturn")).toEqual(false);
+  });
 
   
 });
