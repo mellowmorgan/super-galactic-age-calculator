@@ -1,3 +1,5 @@
+
+
 body{
 
   background-image: url(./../img/space.jpg); 
@@ -13,11 +15,45 @@ h1{
   font-size: 3rem;
 }
 .right-div{
- 
+  height:fit-content;
   text-align: center;
   width:55%;
   float:right;
   padding-right:5rem;
+  margin-bottom:3rem;
+  display:block;
+}
+.left-cards{
+  width: 40%;
+  margin-top: 5rem;
+  float:left;
+}
+.right-cards{
+  width: 60%;
+  margin-top:1rem;
+  float:right;
+}
+@media screen and (max-width: 992px){
+  .left-div{
+    width: 100%;
+    padding-bottom: 7rem;
+    display: block;
+  }
+  .right-div{
+    padding-right: 0;
+    width:100%;
+    display:block;
+  }
+  .left-cards{
+    width:50%;
+    margin:0;
+  }
+  .right-cards{
+    width: 50%;
+    margin:0;
+  }
+   
+  
 }
 #age{
   text-align: center;
@@ -61,16 +97,7 @@ h5{
 h6{
   margin-top:2rem;
 }
-.left-cards{
-  width: 40%;
-  margin-top: 5rem;
-  float:left;
-}
-.right-cards{
-  width: 60%;
-  margin-top:1rem;
-  float:right;
-}
+
 #p1,#p2,#p3,#p4{
   margin-top:1.5rem;
   padding: .5rem;
@@ -80,8 +107,5 @@ h6{
 }
 #p1,#p2{
   float: right;
-  margin-right:1.5rem;
-}
-#p3,#p4{
-  margin-right:1.5rem;
+  margin-right:1.5rem; 
 }
