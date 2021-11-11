@@ -20,6 +20,7 @@ h1{
   padding-right:5rem;
 }
 #age{
+  text-align: center;
   border-radius: 50px;
   width:12rem;
   height:3rem;
@@ -43,6 +44,12 @@ button:active{
   background-color:rgb(220, 81, 30) !important;
 }
 
+a{
+  color:rgb(255, 108, 55) !important;
+}
+a:hover{
+  color:rgb(255, 68, 0) !important; 
+}
 
 img{
   width:7rem;
