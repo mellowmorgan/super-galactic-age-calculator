@@ -10,6 +10,8 @@ export class GalacticCalculator{
         return this.age/.62;
       case "Mars":
         return this.age/1.88;
+      case "Jupiter":
+        return this.age/11.86;
       default:
         return false;
     } 
