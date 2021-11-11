@@ -1,11 +1,48 @@
 body{
+
   background-image: url(./../img/space.jpg); 
 }
 .left-div{
+  margin-top:10rem;
+  margin-bottom: 10rem;
+  color:white;
+  
+  width:50%;
   float:left;
 }
 
 .right-div{
+  text-align: center;
+  width:50%;
   float:right;
 
+}
+#age{
+  width:10rem;
+}
+img{
+  width:7rem;
+  height:7rem;
+}
+h5{
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+#p1,#p3{
+  padding:.5rem;
+  height:15rem;
+float:left;
+width:13rem;
+background-color: white;
+margin:2rem;
+}
+
+
+#p2,#p4{
+  padding: .5rem;
+  height: 15rem;
+  float:right;
+  width:13rem;
+  background-color: white;
+  margin:2rem;
 }
