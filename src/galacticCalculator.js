@@ -6,7 +6,8 @@ export class GalacticCalculator{
     switch (planet) {
       case "Mercury":
         return this.age/.24;
-      
+      case "Venus":
+        return this.age/.62
       default:
         return false;
     } 

@@ -9,7 +9,7 @@ describe('GalacticCalculator', () => {
     expect( cal.ageCalculator("Mercury")).toEqual(116.66666666666667);
   });
   test('Should return age in Venus years when ageCalculator("Venus") is called', () => {
-    expect( cal.ageCalculator("Venus")).toEqual(?);
+    expect( cal.ageCalculator("Venus")).toEqual(45.16129032258065);
   });
   // test('Should create GalacticCalculator cal object with age property', () => {
   //   expect(cal.age).toEqual(28);
