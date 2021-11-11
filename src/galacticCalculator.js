@@ -24,6 +24,7 @@ export class GalacticCalculator{
     // else{return false;}
 
     let planetAge = this.ageCalculator(planet);
+    
     switch (planet) {
       case "Mercury":
         return 72.74/.24-(this.ageCalculator("Mercury"));

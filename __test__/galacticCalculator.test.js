@@ -36,5 +36,9 @@ describe('GalacticCalculator', () => {
   test('Should return years left on Mars when yearsLeft() is called', () => {
     expect( cal.yearsLeft("Mars")).toEqual(23.797872340425528);
   });
+  test('Should return positive number if user has lived past life expectancy when yearsLeft() is called', () => {
+    const oldPersonCal = new GalacticCalculator(88);
+    expect( oldPersonCal.yearsLeft("Venus")).toEqual();
+  });
   
 });
