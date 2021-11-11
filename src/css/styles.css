@@ -1,48 +1,65 @@
 body{
 
   background-image: url(./../img/space.jpg); 
+  background-size: cover;
 }
 .left-div{
-  margin-top:10rem;
-  margin-bottom: 10rem;
+  width:45%;
+  padding: 10rem 6rem 10rem 6rem;
   color:white;
-  
-  width:50%;
   float:left;
 }
-
+h1{
+  font-size: 3rem;
+}
 .right-div{
+ 
   text-align: center;
-  width:50%;
+  width:55%;
   float:right;
-
+  padding-right:5rem;
+  padding-left: rem;
 }
 #age{
-  width:10rem;
+  width:12rem;
+  height:3rem;
+  margin-top:2rem;
+  margin-bottom: 2rem;
+}
+button{
+  width:12rem;
+  height:3rem;
 }
 img{
   width:7rem;
   height:7rem;
 }
 h5{
+  margin-top:.5rem;
+}
+
+
+.left-cards{
+  width: 50%;
+  margin-top: 5rem;
+  float:left;
+}
+.right-cards{
+  width: 50%;
   margin-top:1rem;
-  margin-bottom:1rem;
-}
-#p1,#p3{
-  padding:.5rem;
-  height:15rem;
-float:left;
-width:13rem;
-background-color: white;
-margin:2rem;
-}
-
-
-#p2,#p4{
-  padding: .5rem;
-  height: 15rem;
   float:right;
-  width:13rem;
+}
+#p1,#p2,#p3,#p4{
+  margin-top:1.5rem;
+  padding: .5rem;
+  height: 17rem;
+  width:15rem;
   background-color: white;
-  margin:2rem;
+}
+#p1,#p2{
+  float: right;
+  margin-right:1.5rem;
+}
+#p3,#p4{
+  margin-right:1.5rem;
 }
