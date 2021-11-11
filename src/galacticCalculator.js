@@ -29,6 +29,7 @@ export class GalacticCalculator{
         return 72.74/.24-(this.ageCalculator("Mercury"));
       case "Venus":
         return 72.74/.62-(this.ageCalculator("Venus"));
+      
       case "Jupiter":
         return 72.74/11.86-(this.ageCalculator("Jupiter"));
       default:
