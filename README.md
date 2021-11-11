@@ -1,31 +1,32 @@
-# (Application Name)
+# Super Galactic Age Calculator
 
-#### (Brief Description of Application)
+#### Webpage displays age on various planets.
 
-#### By (Your Name Here)
+#### By Morgan Waites
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* Javascript/JQuery
+* HTML/CSS/Bootstrap 
 
 ## Description
 
+Webpage where user inputs age on Earth and it displays age in years on some planets along with corresponding years remaining on planets based on human average life expectancy.
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* In terminal cd to desktop
+* git clone this repository
+* cd to super-galactic-age-calculator
+* npm install
+* npm run start
+
+## Github Pages
+
+Check out the webpage here!
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs
 
 ## License
-
-## Contact Information
