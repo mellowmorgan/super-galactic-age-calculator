@@ -16,7 +16,22 @@ export class GalacticCalculator{
         return false;
     } 
   }
-  
+  yearsLeft(planet){
+    //world life expectancy 72.74
+    // if(this.ageCalculator(planet){
+    //   let planetAge = this.ageCalculator(planet);
+    // }
+    // else{return false;}
+
+    let planetAge = this.ageCalculator(planet);
+    switch (planet) {
+      case "Mercury":
+        return 72.74/.24-(this.ageCalculator("Mercury"));
+      default:
+        return false;
+    } 
+   
+  }
 
 }
 
