@@ -16,6 +16,7 @@ export class GalacticCalculator{
         return false;
     } 
   }
+  
 
 }
 
