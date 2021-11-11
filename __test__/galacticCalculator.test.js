@@ -26,9 +26,9 @@ describe('GalacticCalculator', () => {
   test('Should return false when yearsLeft() on unknown is called', () => {
     expect( cal.yearsLeft("Saturn")).toEqual(false);
   });
-  // test('Should return years left on Mercury when yearsLeft() is called', () => {
-  //   expect( cal.ageCalculator("Mercury")).toEqual();
-  // });
+  test('Should return years left on Venus when yearsLeft("Venus") is called', () => {
+    expect( cal.ageCalculator("Venus")).toEqual(72.74/.24-cal.ageCalculator("Venus"));
+  });
   // test('Should return years left on Mercury when yearsLeft() is called', () => {
   //   expect( cal.ageCalculator("Mercury")).toEqual();
   // });
