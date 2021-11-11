@@ -34,7 +34,7 @@ describe('GalacticCalculator', () => {
   });
 
   test('Should return years left on Mars when yearsLeft() is called', () => {
-    expect( cal.yearsLeft("Mars")).toEqual();
+    expect( cal.yearsLeft("Mars")).toEqual(23.797872340425528);
   });
   
 });
