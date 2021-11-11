@@ -8,9 +8,9 @@ import './css/styles.css';
 $("button").on("click",function(){
   let age = parseInt($("#age").val());
   let cal = new GalacticCalculator(age);
-  $("#mercury").text(cal.ageCalculator("Mercury"));
-  $("#venus").text(cal.ageCalculator("Venus"));
-  $("#mars").text(cal.ageCalculator("Mars"));
-  $("#jupiter").text(cal.ageCalculator("Jupiter"));
+  $("#mercury").text(Math.round(cal.ageCalculator("Mercury")));
+  $("#venus").text(Math.round(cal.ageCalculator("Venus")));
+  $("#mars").text(Math.round(cal.ageCalculator("Mars")));
+  $("#jupiter").text(Math.round(cal.ageCalculator("Jupiter")));
 
 });
