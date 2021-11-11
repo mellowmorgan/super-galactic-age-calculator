@@ -30,7 +30,7 @@ describe('GalacticCalculator', () => {
     expect( cal.yearsLeft("Venus")).toEqual(72.16129032258064);
   });
   test('Should return years left on Jupiter when yearsLeft("Jupiter") is called', () => {
-    expect( cal.yearsLeft("Jupiter")).toEqual();
+    expect( cal.yearsLeft("Jupiter")).toEqual(3.7723440134907245);
   });
 
   // test('Should return years left on Mercury when yearsLeft() is called', () => {
