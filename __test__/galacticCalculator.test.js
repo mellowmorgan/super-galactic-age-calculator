@@ -1,4 +1,4 @@
-import { GalacticCalculator } from './../src/galacticCalculator.js';
+import { GalacticCalculator } from './../src/js/galacticCalculator.js';
 
 describe('GalacticCalculator', () => {
   let cal;
