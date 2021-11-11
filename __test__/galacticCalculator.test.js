@@ -11,14 +11,14 @@ describe('GalacticCalculator', () => {
   test('Should return age in Venus years when ageCalculator("Venus") is called', () => {
     expect( cal.ageCalculator("Venus")).toEqual(45.16129032258065);
   });
-  // test('Should create GalacticCalculator cal object with age property', () => {
-  //   expect(cal.age).toEqual(28);
+  test('Should return age in Mars years when ageCalculator("Venus") is called', () => {
+    expect( cal.ageCalculator("Mars")).toEqual(14.8936170213);
+  });
+  // test('Should return age in Venus years when ageCalculator("Venus") is called', () => {
+  //   expect( cal.ageCalculator("Venus")).toEqual(45.16129032258065);
   // });
-  // test('Should create GalacticCalculator cal object with age property', () => {
-  //   expect(cal.age).toEqual(28);
-  // });
-  // test('Should create GalacticCalculator cal object with age property', () => {
-  //   expect(cal.age).toEqual(28);
+  // test('Should return age in Venus years when ageCalculator("Venus") is called', () => {
+  //   expect( cal.ageCalculator("Venus")).toEqual(45.16129032258065);
   // });
 
   

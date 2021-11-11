@@ -7,7 +7,9 @@ export class GalacticCalculator{
       case "Mercury":
         return this.age/.24;
       case "Venus":
-        return this.age/.62
+        return this.age/.62;
+      case "Mars":
+        return this.age/1.88;
       default:
         return false;
     } 
