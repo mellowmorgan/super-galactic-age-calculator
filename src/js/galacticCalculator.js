@@ -17,7 +17,7 @@ export class GalacticCalculator{
     } 
   }
   yearsLeft(planet){
-    //world life expectancy 72.74
+    //world life expectancy 72.74 as of 2019
 
     let planetAge = this.ageCalculator(planet);
     let yearsLeft;
