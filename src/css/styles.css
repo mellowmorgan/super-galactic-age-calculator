@@ -20,15 +20,29 @@ h1{
   padding-right:5rem;
 }
 #age{
+  border-radius: 50px;
   width:12rem;
   height:3rem;
   margin-top:2rem;
   margin-bottom: 2rem;
 }
+
 button{
+  color:white !important;
+  letter-spacing: .1rem;
+  font-weight: 600 !important;
+  border-radius: 50px !important;
+  background-color:rgb(255, 108, 55) !important;
   width:12rem;
   height:3rem;
 }
+button:hover{
+  background-color:rgb(226, 96, 49) !important; 
+}
+button:active{
+  background-color:rgb(220, 81, 30) !important;
+}
+
 
 img{
   width:7rem;
