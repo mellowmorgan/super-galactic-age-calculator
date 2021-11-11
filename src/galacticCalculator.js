@@ -18,26 +18,36 @@ export class GalacticCalculator{
   }
   yearsLeft(planet){
     //world life expectancy 72.74
-    // if(this.ageCalculator(planet){
-    //   let planetAge = this.ageCalculator(planet);
-    // }
-    // else{return false;}
 
     let planetAge = this.ageCalculator(planet);
-    
+    let yearsLeft;
     switch (planet) {
       case "Mercury":
-        return 72.74/.24-(this.ageCalculator("Mercury"));
+        yearsLeft = 72.74/.24-(this.ageCalculator("Mercury"));
+        break;
       case "Venus":
-        return 72.74/.62-(this.ageCalculator("Venus"));
+        yearsLeft = 72.74/.62-(this.ageCalculator("Venus"));
+        break;
       case "Mars":
-        return 72.74/1.88-(this.ageCalculator("Mars"));
+        yearsLeft = 72.74/1.88-(this.ageCalculator("Mars"));
+        break;
       case "Jupiter":
-        return 72.74/11.86-(this.ageCalculator("Jupiter"));
+        yearsLeft = 72.74/11.86-(this.ageCalculator("Jupiter"));
+        break;
       default:
-        return false;
+        yearsLeft=false;
     } 
-   
+    if(yearsLeft){
+      if (yearsLeft<0){
+        return -1*yearsLeft;
+      }
+      else{
+        return yearsLeft;
+      }
+    }
+    else{
+      return yearsLeft;
+    }  
   }
 
 }

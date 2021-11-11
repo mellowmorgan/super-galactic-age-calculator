@@ -38,7 +38,7 @@ describe('GalacticCalculator', () => {
   });
   test('Should return positive number if user has lived past life expectancy when yearsLeft() is called', () => {
     const oldPersonCal = new GalacticCalculator(88);
-    expect( oldPersonCal.yearsLeft("Venus")).toEqual();
+    expect( oldPersonCal.yearsLeft("Venus")).toEqual(24.612903225806463);
   });
   
 });
