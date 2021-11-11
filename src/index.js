@@ -8,15 +8,13 @@ import './css/styles.css';
 $("button").on("click",function(){
   $("#messages").empty();
   let age = parseInt($("#age").val());
- 
-  if(age){
-  let cal = new GalacticCalculator(age);
-  
-  $("#mercury").text(Math.round(cal.ageCalculator("Mercury")) + " years");
-  $("#venus").text(Math.round(cal.ageCalculator("Venus"))+" years");
-  $("#mars").text(Math.round(cal.ageCalculator("Mars"))+" years");
-  $("#jupiter").text(Math.round(cal.ageCalculator("Jupiter"))+" years");
 
+  if(age){
+    let cal = new GalacticCalculator(age);
+    $("#mercury").text(Math.round(cal.ageCalculator("Mercury")) + " years");
+    $("#venus").text(Math.round(cal.ageCalculator("Venus"))+" years");
+    $("#mars").text(Math.round(cal.ageCalculator("Mars"))+" years");
+    $("#jupiter").text(Math.round(cal.ageCalculator("Jupiter"))+" years");
     if (cal.age>72.74 && cal.age<123){
       $("#mercury-left").text("+" +Math.round(cal.yearsLeft("Mercury")));
       $("#venus-left").text("+" +Math.round(cal.yearsLeft("Venus")));
@@ -38,7 +36,4 @@ $("button").on("click",function(){
   else{
     $("#messages").append("<br><h6>Please enter a valid age.</h6>");
   }
-  
-
-  
 });
