@@ -15,18 +15,21 @@ Webpage where user inputs age on Earth and it displays age in years on some plan
 
 ## Setup/Installation Requirements
 
-* In terminal cd to desktop
+* In terminal, navigate to desktop or desired place to hold project folder
 * git clone this repository
-* cd to super-galactic-age-calculator
+* navigate to top level of project folder, super-galactic-age-calculator
 * npm install
 * npm run start
 
 ## Github Pages
 
-Check out the webpage here!
+Check out the webpage [here]()!
 
 ## Known Bugs
 
-* No known bugs
+* It rounds age up, doesn't account for months of age only years so age on planets not exact. A way around this would be to force user to enter exact birthday and make decimal point of age.
 
 ## License
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2021 Morgan Waites.
