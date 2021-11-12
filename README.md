@@ -21,13 +21,9 @@ Webpage where user inputs age on Earth and it displays age in years on some plan
 * npm install
 * npm run start
 
-## Github Pages
-
-Check out the webpage [here]()!
-
 ## Known Bugs
 
-* It rounds age up, doesn't account for months of age only years so age on planets not exact. A way around this would be to force user to enter exact birthday and make decimal point of age.
+* It lacks accuracy as it rounds age results up, doesn't account for months of age only years so age on planets not exact. A way around this would be to force user to enter exact birthday, and make it a float, and make a fuction that rounds up to two decimal points for more accuracy.
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
